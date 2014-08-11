@@ -31,7 +31,7 @@
 
 #include <GL/glew.h>
 #ifdef _WIN32
-#pragma comment(lib,"glew32.lib")
+// DAVIDE - Let glew do this itself -- #pragma comment(lib,"glew32.lib")
 #endif
 
 

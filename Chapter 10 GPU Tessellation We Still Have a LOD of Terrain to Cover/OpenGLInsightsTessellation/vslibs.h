@@ -18,13 +18,16 @@
 
 #ifdef _WIN32
 
+/* DAVIDE - this is static for now
 #ifdef _DEBUG
 #pragma comment(lib,"vsld.lib")
 #else
 #pragma comment(lib,"vsl.lib")
 #endif
+*/
 
-#pragma comment(lib,"glew32.lib")
+// DAVIDE - Let glew do this itself -- #pragma comment(lib,"glew32.lib")
+
 #endif
 
 #include "vsShaderLib.h"

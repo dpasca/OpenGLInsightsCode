@@ -46,7 +46,7 @@
 // include DevIL for image loading
 #include <IL/il.h>
 #ifdef _WIN32
-#pragma comment(lib,"glew32.lib")
+// DAVIDE - Let glew do this itself -- #pragma comment(lib,"glew32.lib")
 #pragma comment(lib,"devil.lib")
 #endif
 
