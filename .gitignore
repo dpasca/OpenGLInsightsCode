@@ -1,4 +1,8 @@
+*.opensdf
+*.sdf
+*.suo
+
 Chapter\ 10\ GPU\ Tessellation\ We\ Still\ Have\ a\ LOD\ of\ Terrain\ to\ Cover/OpenGLInsightsTessellation/Debug
 Chapter\ 10\ GPU\ Tessellation\ We\ Still\ Have\ a\ LOD\ of\ Terrain\ to\ Cover/Debug
-Chapter\ 10\ GPU\ Tessellation\ We\ Still\ Have\ a\ LOD\ of\ Terrain\ to\ Cover/DevIL.dll
+Chapter\ 10\ GPU\ Tessellation\ We\ Still\ Have\ a\ LOD\ of\ Terrain\ to\ Cover/OpenGLInsightsTessellation/DevIL.dll
 

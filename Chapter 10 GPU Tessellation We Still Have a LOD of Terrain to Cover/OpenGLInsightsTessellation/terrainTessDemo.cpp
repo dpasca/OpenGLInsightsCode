@@ -37,8 +37,15 @@ The code comes with no warranties, it is provided only as a demo
 // set to 256 or 65536 depending in whether the image is 8 or 16 bit respectively.
 #define MAX_VALUE_PER_PIXEL 65536
 
+#if 0 // DAVIDE --
 std::string terrainName = "heightMaps/pugget_sound/ps_height_1k.png";
 std::string terrainTexture = "heightMaps/pugget_sound/ps_texture_2k.png";
+#else
+std::string gBaseTexPath = "../../Chapter 15 Depth of Field with Bokeh Rendering/resources/textures/";
+std::string terrainName    = gBaseTexPath + "terrainHeight2.png";
+std::string terrainTexture = gBaseTexPath + "terrainDiffuse2.png";
+#endif
+
 float heightStep = 0.1f;
 int scaleFactor = 2;
 float gridSpacing = 160.0f;
